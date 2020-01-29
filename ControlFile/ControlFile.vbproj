@@ -97,16 +97,53 @@
     <Content Include="assets\fonts\ionicons.svg" />
     <Content Include="assets\img\meeting.jpg" />
     <Content Include="assets\js\jquery.min.js" />
+    <Content Include="Change.aspx" />
+    <Content Include="FileList.aspx" />
+    <Content Include="Forgot.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="Scripts\filedrop.js" />
+    <Content Include="Upload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Change.aspx.designer.vb">
+      <DependentUpon>Change.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Change.aspx.vb">
+      <DependentUpon>Change.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FileList.aspx.designer.vb">
+      <DependentUpon>FileList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileList.aspx.vb">
+      <DependentUpon>FileList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forgot.aspx.designer.vb">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot.aspx.vb">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HandlerVB.ashx.vb">
+      <DependentUpon>HandlerVB.ashx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -128,6 +165,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Upload.aspx.designer.vb">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload.aspx.vb">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -141,6 +192,7 @@
     <Content Include="assets\fonts\ionicons.eot" />
     <Content Include="assets\fonts\ionicons.ttf" />
     <Content Include="assets\fonts\ionicons.woff" />
+    <Content Include="HandlerVB.ashx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
