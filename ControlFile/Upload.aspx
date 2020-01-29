@@ -70,19 +70,39 @@
     <div id="dropSection">
 
         <div class="illustration"><i class="icon ion-social-dropbox"></i></div>
+                    <div class="col text-center text-black-50">
+                        <small><strong>Second:</strong> Drag your file here</small>
+                    </div>
         
     </div>
     <br />
+    
 
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col"><input type="text" placeholder="# Document" id="Docto"/></div>
-                <div class="col"></div>
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col text-center">
+                        <input type="text" placeholder="# Document" id="Docto"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center text-black-50">
+                        <small><strong>First:</strong> Enter the delivery number</small>
+                    </div>
+                </div>
             </div>
+            <div class="col-md-4"></div>
         </div>
-    </div>    
+    </div>
+</div>
+
+
+    
+
+
     <div id="uploadedFiles">
     </div>
     <input type="button" id="btnUpload" value="Upload" />

@@ -310,10 +310,10 @@
                                             Resultado = Resultado + "<td>" + value +"</td>"
                                             break;
                                         case 'Fnl_File':
-                                            Resultado = Resultado + "<td> <button> <a href='" + value + "' target='_blank'> See</a> </button> <button onclick='Rmv(" + chr + Document + chr + ")'>Rmv</button>  </td> </tr>"
+                                            Resultado = Resultado + "<td> <button> <a href='" + value + "' target='_blank'> View</a> </button> <button onclick='Rmv(" + chr + Document + chr + ")'>Rmv</button>  </td> </tr>"
                                             break;
                                         case 'Fnl_Fl':
-                                            Resultado = Resultado + "<td> <button> <a href='" + value + "' target='_blank'> See</a> </button>  </td> </tr>"
+                                            Resultado = Resultado + "<td> <button> <a href='" + value + "' target='_blank'> View</a> </button>  </td> </tr>"
                                             break;
 
                                     }

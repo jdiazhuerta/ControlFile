@@ -35,14 +35,13 @@
             <div class="form-group">                                    
                 <asp:Label ID="RFV" runat="server" Text="Usuario o Password no válido." ForeColor="Red" Visible="False"></asp:Label>
             </div>
-
+            <a class="forgot" href="Forgot.aspx">Forgot your email or password?</a>
             <div class="form-group">
                 <asp:Button type ="submit"  ID="Button1" runat="server" Text="Log In"  CssClass="btn btn-primary active btn-block" />
-
-
             </div>
-            <a class="forgot" href="Register.aspx">Register</a>
-            <a class="forgot" href="Forgot.aspx">Forgot your email or password?</a>
+            <a class="forgot" >Register</a>
+            <a class="forgot" href="Register.aspx">You don´t have an account yet?</a>
+            
 
 
         </form>

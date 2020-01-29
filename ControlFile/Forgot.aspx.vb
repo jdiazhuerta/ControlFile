@@ -66,8 +66,8 @@ Public Class Forgot
             Me.Session.Timeout = 10
             If (tabla.Rows.Count > 0) Then
                 Dim strTo As String() = New String() {Me.email.Text}
-            New SendEmail().SendEmailMessage(ConfigurationSettings.AppSettings("user_s"), strTo, "RECUPERAR CONTRASEÑA", ("El password de su cuenta es: " & Me.Valor(tabla, 0, 2) & ". Se sugiere hacer el cambio de Password."), New String(2  - 1) {}, ConfigurationSettings.AppSettings("user_s"), ConfigurationSettings.AppSettings("pass_s"), ConfigurationSettings.AppSettings("host_s"), ConfigurationSettings.AppSettings("port_s"))
-        Else
+                'New SendEmail().SendEmailMessage(ConfigurationSettings.AppSettings("user_s"), strTo, "RECUPERAR CONTRASEÑA", ("El password de su cuenta es: " & Me.Valor(tabla, 0, 2) & ". Se sugiere hacer el cambio de Password."), New String(2  - 1) {}, ConfigurationSettings.AppSettings("user_s"), ConfigurationSettings.AppSettings("pass_s"), ConfigurationSettings.AppSettings("host_s"), ConfigurationSettings.AppSettings("port_s"))
+            Else
                 Me.rema.Text = "Correo no está registrado."
                 Me.rema.Visible = True
             End If
